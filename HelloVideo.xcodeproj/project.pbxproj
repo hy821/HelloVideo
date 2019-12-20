@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23176D87D2D6332EF2EB7306 /* Pods_HelloVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A2B1273C6282A9D19E04DF /* Pods_HelloVideo.framework */; };
+		602B2E6023A8FF03000DEB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602B2E5E23A8FF03000DEB3E /* Main.storyboard */; };
+		602B2E6223A8FF05000DEB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602B2E6123A8FF05000DEB3E /* Assets.xcassets */; };
+		602B2E6523A8FF05000DEB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602B2E6323A8FF05000DEB3E /* LaunchScreen.storyboard */; };
+		602B2E7023A8FF06000DEB3E /* HelloVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B2E6F23A8FF06000DEB3E /* HelloVideoTests.swift */; };
+		602B2E7B23A8FF06000DEB3E /* HelloVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B2E7A23A8FF06000DEB3E /* HelloVideoUITests.swift */; };
+		60B53B1D23A9C72F00C9346A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0823A9C72F00C9346A /* SceneDelegate.swift */; };
+		60B53B1E23A9C72F00C9346A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0C23A9C72F00C9346A /* HomeViewController.swift */; };
+		60B53B1F23A9C72F00C9346A /* VideoLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0E23A9C72F00C9346A /* VideoLibViewController.swift */; };
+		60B53B2023A9C72F00C9346A /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1023A9C72F00C9346A /* DiscoverViewController.swift */; };
+		60B53B2123A9C72F00C9346A /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1223A9C72F00C9346A /* MineViewController.swift */; };
+		60B53B2223A9C72F00C9346A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1523A9C72F00C9346A /* AppDelegate.swift */; };
+		60B53B2323A9C72F00C9346A /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1723A9C72F00C9346A /* BaseTabbarController.swift */; };
+		60B53B2423A9C72F00C9346A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1823A9C72F00C9346A /* BaseViewController.swift */; };
+		60B53B2523A9C72F00C9346A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1923A9C72F00C9346A /* BaseNavigationController.swift */; };
+		60B53B2623A9C72F00C9346A /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1B23A9C72F00C9346A /* Tool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		602B2E6C23A8FF06000DEB3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 602B2E4D23A8FF03000DEB3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 602B2E5423A8FF03000DEB3E;
+			remoteInfo = HelloVideo;
+		};
+		602B2E7723A8FF06000DEB3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 602B2E4D23A8FF03000DEB3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 602B2E5423A8FF03000DEB3E;
+			remoteInfo = HelloVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A2B1273C6282A9D19E04DF /* Pods_HelloVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D1451988B529CA85BBCDE3 /* Pods-HelloVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloVideo/Pods-HelloVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		602B2E5523A8FF03000DEB3E /* HelloVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		602B2E5F23A8FF03000DEB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		602B2E6123A8FF05000DEB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		602B2E6423A8FF05000DEB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		602B2E6B23A8FF06000DEB3E /* HelloVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		602B2E6F23A8FF06000DEB3E /* HelloVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVideoTests.swift; sourceTree = "<group>"; };
+		602B2E7123A8FF06000DEB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602B2E7623A8FF06000DEB3E /* HelloVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		602B2E7A23A8FF06000DEB3E /* HelloVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVideoUITests.swift; sourceTree = "<group>"; };
+		602B2E7C23A8FF06000DEB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B53B0723A9C72F00C9346A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B53B0823A9C72F00C9346A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60B53B0C23A9C72F00C9346A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		60B53B0E23A9C72F00C9346A /* VideoLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLibViewController.swift; sourceTree = "<group>"; };
+		60B53B1023A9C72F00C9346A /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		60B53B1223A9C72F00C9346A /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		60B53B1523A9C72F00C9346A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60B53B1723A9C72F00C9346A /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		60B53B1823A9C72F00C9346A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		60B53B1923A9C72F00C9346A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		60B53B1B23A9C72F00C9346A /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		948F4ED6D249C731745B6E57 /* Pods-HelloVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloVideo/Pods-HelloVideo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602B2E5223A8FF03000DEB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23176D87D2D6332EF2EB7306 /* Pods_HelloVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602B2E6823A8FF06000DEB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602B2E7323A8FF06000DEB3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6429DC53F673D062FD108D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38D1451988B529CA85BBCDE3 /* Pods-HelloVideo.debug.xcconfig */,
+				948F4ED6D249C731745B6E57 /* Pods-HelloVideo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		602B2E4C23A8FF03000DEB3E = {
+			isa = PBXGroup;
+			children = (
+				602B2E5723A8FF03000DEB3E /* HelloVideo */,
+				602B2E6E23A8FF06000DEB3E /* HelloVideoTests */,
+				602B2E7923A8FF06000DEB3E /* HelloVideoUITests */,
+				602B2E5623A8FF03000DEB3E /* Products */,
+				3D6429DC53F673D062FD108D /* Pods */,
+				FBF4366987521964B6A931C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		602B2E5623A8FF03000DEB3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602B2E5523A8FF03000DEB3E /* HelloVideo.app */,
+				602B2E6B23A8FF06000DEB3E /* HelloVideoTests.xctest */,
+				602B2E7623A8FF06000DEB3E /* HelloVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602B2E5723A8FF03000DEB3E /* HelloVideo */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B0923A9C72F00C9346A /* Classes */,
+				60B53B0623A9C72F00C9346A /* SupporttingFiles */,
+				602B2E5E23A8FF03000DEB3E /* Main.storyboard */,
+				602B2E6123A8FF05000DEB3E /* Assets.xcassets */,
+				602B2E6323A8FF05000DEB3E /* LaunchScreen.storyboard */,
+			);
+			path = HelloVideo;
+			sourceTree = "<group>";
+		};
+		602B2E6E23A8FF06000DEB3E /* HelloVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				602B2E6F23A8FF06000DEB3E /* HelloVideoTests.swift */,
+				602B2E7123A8FF06000DEB3E /* Info.plist */,
+			);
+			path = HelloVideoTests;
+			sourceTree = "<group>";
+		};
+		602B2E7923A8FF06000DEB3E /* HelloVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				602B2E7A23A8FF06000DEB3E /* HelloVideoUITests.swift */,
+				602B2E7C23A8FF06000DEB3E /* Info.plist */,
+			);
+			path = HelloVideoUITests;
+			sourceTree = "<group>";
+		};
+		60B53B0623A9C72F00C9346A /* SupporttingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B0723A9C72F00C9346A /* Info.plist */,
+				60B53B0823A9C72F00C9346A /* SceneDelegate.swift */,
+			);
+			path = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		60B53B0923A9C72F00C9346A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B1423A9C72F00C9346A /* Appdelegate */,
+				60B53B0A23A9C72F00C9346A /* TabbarVC */,
+				60B53B1323A9C72F00C9346A /* Public */,
+				60B53B1623A9C72F00C9346A /* Base */,
+				60B53B1A23A9C72F00C9346A /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60B53B0A23A9C72F00C9346A /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B0B23A9C72F00C9346A /* Home */,
+				60B53B0D23A9C72F00C9346A /* VideoLib */,
+				60B53B0F23A9C72F00C9346A /* Discovery */,
+				60B53B1123A9C72F00C9346A /* Mine */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		60B53B0B23A9C72F00C9346A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B0C23A9C72F00C9346A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		60B53B0D23A9C72F00C9346A /* VideoLib */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B0E23A9C72F00C9346A /* VideoLibViewController.swift */,
+			);
+			path = VideoLib;
+			sourceTree = "<group>";
+		};
+		60B53B0F23A9C72F00C9346A /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B1023A9C72F00C9346A /* DiscoverViewController.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		60B53B1123A9C72F00C9346A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B1223A9C72F00C9346A /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		60B53B1323A9C72F00C9346A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		60B53B1423A9C72F00C9346A /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B1523A9C72F00C9346A /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		60B53B1623A9C72F00C9346A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B1723A9C72F00C9346A /* BaseTabbarController.swift */,
+				60B53B1823A9C72F00C9346A /* BaseViewController.swift */,
+				60B53B1923A9C72F00C9346A /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		60B53B1A23A9C72F00C9346A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B1B23A9C72F00C9346A /* Tool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		FBF4366987521964B6A931C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09A2B1273C6282A9D19E04DF /* Pods_HelloVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602B2E5423A8FF03000DEB3E /* HelloVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602B2E7F23A8FF06000DEB3E /* Build configuration list for PBXNativeTarget "HelloVideo" */;
+			buildPhases = (
+				31A653C18DDCD96FF189177B /* [CP] Check Pods Manifest.lock */,
+				602B2E5123A8FF03000DEB3E /* Sources */,
+				602B2E5223A8FF03000DEB3E /* Frameworks */,
+				602B2E5323A8FF03000DEB3E /* Resources */,
+				52065CC473EF371C422158B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloVideo;
+			productName = HelloVideo;
+			productReference = 602B2E5523A8FF03000DEB3E /* HelloVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		602B2E6A23A8FF06000DEB3E /* HelloVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602B2E8223A8FF06000DEB3E /* Build configuration list for PBXNativeTarget "HelloVideoTests" */;
+			buildPhases = (
+				602B2E6723A8FF06000DEB3E /* Sources */,
+				602B2E6823A8FF06000DEB3E /* Frameworks */,
+				602B2E6923A8FF06000DEB3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				602B2E6D23A8FF06000DEB3E /* PBXTargetDependency */,
+			);
+			name = HelloVideoTests;
+			productName = HelloVideoTests;
+			productReference = 602B2E6B23A8FF06000DEB3E /* HelloVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		602B2E7523A8FF06000DEB3E /* HelloVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602B2E8523A8FF06000DEB3E /* Build configuration list for PBXNativeTarget "HelloVideoUITests" */;
+			buildPhases = (
+				602B2E7223A8FF06000DEB3E /* Sources */,
+				602B2E7323A8FF06000DEB3E /* Frameworks */,
+				602B2E7423A8FF06000DEB3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				602B2E7823A8FF06000DEB3E /* PBXTargetDependency */,
+			);
+			name = HelloVideoUITests;
+			productName = HelloVideoUITests;
+			productReference = 602B2E7623A8FF06000DEB3E /* HelloVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		602B2E4D23A8FF03000DEB3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = 128yh;
+				TargetAttributes = {
+					602B2E5423A8FF03000DEB3E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					602B2E6A23A8FF06000DEB3E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 602B2E5423A8FF03000DEB3E;
+					};
+					602B2E7523A8FF06000DEB3E = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 602B2E5423A8FF03000DEB3E;
+					};
+				};
+			};
+			buildConfigurationList = 602B2E5023A8FF03000DEB3E /* Build configuration list for PBXProject "HelloVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 602B2E4C23A8FF03000DEB3E;
+			productRefGroup = 602B2E5623A8FF03000DEB3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602B2E5423A8FF03000DEB3E /* HelloVideo */,
+				602B2E6A23A8FF06000DEB3E /* HelloVideoTests */,
+				602B2E7523A8FF06000DEB3E /* HelloVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602B2E5323A8FF03000DEB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602B2E6523A8FF05000DEB3E /* LaunchScreen.storyboard in Resources */,
+				602B2E6223A8FF05000DEB3E /* Assets.xcassets in Resources */,
+				602B2E6023A8FF03000DEB3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602B2E6923A8FF06000DEB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602B2E7423A8FF06000DEB3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A653C18DDCD96FF189177B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52065CC473EF371C422158B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloVideo/Pods-HelloVideo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloVideo/Pods-HelloVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602B2E5123A8FF03000DEB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B53B2223A9C72F00C9346A /* AppDelegate.swift in Sources */,
+				60B53B1D23A9C72F00C9346A /* SceneDelegate.swift in Sources */,
+				60B53B2323A9C72F00C9346A /* BaseTabbarController.swift in Sources */,
+				60B53B2623A9C72F00C9346A /* Tool.swift in Sources */,
+				60B53B2023A9C72F00C9346A /* DiscoverViewController.swift in Sources */,
+				60B53B1E23A9C72F00C9346A /* HomeViewController.swift in Sources */,
+				60B53B2523A9C72F00C9346A /* BaseNavigationController.swift in Sources */,
+				60B53B2423A9C72F00C9346A /* BaseViewController.swift in Sources */,
+				60B53B1F23A9C72F00C9346A /* VideoLibViewController.swift in Sources */,
+				60B53B2123A9C72F00C9346A /* MineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602B2E6723A8FF06000DEB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602B2E7023A8FF06000DEB3E /* HelloVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602B2E7223A8FF06000DEB3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602B2E7B23A8FF06000DEB3E /* HelloVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		602B2E6D23A8FF06000DEB3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 602B2E5423A8FF03000DEB3E /* HelloVideo */;
+			targetProxy = 602B2E6C23A8FF06000DEB3E /* PBXContainerItemProxy */;
+		};
+		602B2E7823A8FF06000DEB3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 602B2E5423A8FF03000DEB3E /* HelloVideo */;
+			targetProxy = 602B2E7723A8FF06000DEB3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		602B2E5E23A8FF03000DEB3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602B2E5F23A8FF03000DEB3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		602B2E6323A8FF05000DEB3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602B2E6423A8FF05000DEB3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		602B2E7D23A8FF06000DEB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		602B2E7E23A8FF06000DEB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		602B2E8023A8FF06000DEB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D1451988B529CA85BBCDE3 /* Pods-HelloVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				INFOPLIST_FILE = "$(SRCROOT)/HelloVideo/SupporttingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		602B2E8123A8FF06000DEB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948F4ED6D249C731745B6E57 /* Pods-HelloVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				INFOPLIST_FILE = "$(SRCROOT)/HelloVideo/SupporttingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		602B2E8323A8FF06000DEB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				INFOPLIST_FILE = HelloVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloVideo.app/HelloVideo";
+			};
+			name = Debug;
+		};
+		602B2E8423A8FF06000DEB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				INFOPLIST_FILE = HelloVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloVideo.app/HelloVideo";
+			};
+			name = Release;
+		};
+		602B2E8623A8FF06000DEB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				INFOPLIST_FILE = HelloVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloVideo;
+			};
+			name = Debug;
+		};
+		602B2E8723A8FF06000DEB3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				INFOPLIST_FILE = HelloVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		602B2E5023A8FF03000DEB3E /* Build configuration list for PBXProject "HelloVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602B2E7D23A8FF06000DEB3E /* Debug */,
+				602B2E7E23A8FF06000DEB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602B2E7F23A8FF06000DEB3E /* Build configuration list for PBXNativeTarget "HelloVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602B2E8023A8FF06000DEB3E /* Debug */,
+				602B2E8123A8FF06000DEB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602B2E8223A8FF06000DEB3E /* Build configuration list for PBXNativeTarget "HelloVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602B2E8323A8FF06000DEB3E /* Debug */,
+				602B2E8423A8FF06000DEB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602B2E8523A8FF06000DEB3E /* Build configuration list for PBXNativeTarget "HelloVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602B2E8623A8FF06000DEB3E /* Debug */,
+				602B2E8723A8FF06000DEB3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 602B2E4D23A8FF03000DEB3E /* Project object */;
+}
