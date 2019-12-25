@@ -14,15 +14,29 @@
 		602B2E7023A8FF06000DEB3E /* HelloVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B2E6F23A8FF06000DEB3E /* HelloVideoTests.swift */; };
 		602B2E7B23A8FF06000DEB3E /* HelloVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B2E7A23A8FF06000DEB3E /* HelloVideoUITests.swift */; };
 		60B53B1D23A9C72F00C9346A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0823A9C72F00C9346A /* SceneDelegate.swift */; };
-		60B53B1E23A9C72F00C9346A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0C23A9C72F00C9346A /* HomeViewController.swift */; };
-		60B53B1F23A9C72F00C9346A /* VideoLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0E23A9C72F00C9346A /* VideoLibViewController.swift */; };
-		60B53B2023A9C72F00C9346A /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1023A9C72F00C9346A /* DiscoverViewController.swift */; };
-		60B53B2123A9C72F00C9346A /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1223A9C72F00C9346A /* MineViewController.swift */; };
 		60B53B2223A9C72F00C9346A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1523A9C72F00C9346A /* AppDelegate.swift */; };
 		60B53B2323A9C72F00C9346A /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1723A9C72F00C9346A /* BaseTabbarController.swift */; };
 		60B53B2423A9C72F00C9346A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1823A9C72F00C9346A /* BaseViewController.swift */; };
 		60B53B2523A9C72F00C9346A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1923A9C72F00C9346A /* BaseNavigationController.swift */; };
 		60B53B2623A9C72F00C9346A /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1B23A9C72F00C9346A /* Tool.swift */; };
+		60B53B3B23AF212500C9346A /* TYPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B2A23AF212500C9346A /* TYPagerController.m */; };
+		60B53B3C23AF212500C9346A /* TYPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B2B23AF212500C9346A /* TYPagerViewLayout.m */; };
+		60B53B3D23AF212500C9346A /* TYTabPagerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B2D23AF212500C9346A /* TYTabPagerBar.m */; };
+		60B53B3E23AF212500C9346A /* TYTabPagerBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B2E23AF212500C9346A /* TYTabPagerBarLayout.m */; };
+		60B53B3F23AF212500C9346A /* TYTabPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B3123AF212500C9346A /* TYTabPagerView.m */; };
+		60B53B4023AF212500C9346A /* TYTabPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B3423AF212500C9346A /* TYTabPagerController.m */; };
+		60B53B4123AF212500C9346A /* TYTabPagerBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B3523AF212500C9346A /* TYTabPagerBarCell.m */; };
+		60B53B4223AF212500C9346A /* TYPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B3723AF212500C9346A /* TYPagerView.m */; };
+		60B53B6223AF508000C9346A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B5423AF508000C9346A /* HomeViewController.swift */; };
+		60B53B6323AF508000C9346A /* VideoLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B5823AF508000C9346A /* VideoLibViewController.swift */; };
+		60B53B6423AF508000C9346A /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B5D23AF508000C9346A /* DiscoverViewController.swift */; };
+		60B53B6523AF508000C9346A /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B6023AF508000C9346A /* MineViewController.swift */; };
+		60B53B6A23AF521C00C9346A /* CommonTopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B6923AF521C00C9346A /* CommonTopSearchView.swift */; };
+		60B53B6F23B0B31800C9346A /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B6E23B0B31800C9346A /* UIButtonExtensions.swift */; };
+		60B53B7323B0C1E400C9346A /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B7223B0C1E400C9346A /* UserManager.swift */; };
+		60B53B7523B0D85800C9346A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B7423B0D85800C9346A /* UIImageExtensions.swift */; };
+		60D985F123B1E8D60085B4F3 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D985F023B1E8D60085B4F3 /* Const.swift */; };
+		60D985F323B1EFC00085B4F3 /* VideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D985F223B1EFC00085B4F3 /* VideoDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,15 +71,38 @@
 		602B2E7C23A8FF06000DEB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B53B0723A9C72F00C9346A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B53B0823A9C72F00C9346A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60B53B0C23A9C72F00C9346A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		60B53B0E23A9C72F00C9346A /* VideoLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLibViewController.swift; sourceTree = "<group>"; };
-		60B53B1023A9C72F00C9346A /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		60B53B1223A9C72F00C9346A /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		60B53B1523A9C72F00C9346A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60B53B1723A9C72F00C9346A /* BaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
 		60B53B1823A9C72F00C9346A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		60B53B1923A9C72F00C9346A /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		60B53B1B23A9C72F00C9346A /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		60B53B2A23AF212500C9346A /* TYPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerController.m; sourceTree = "<group>"; };
+		60B53B2B23AF212500C9346A /* TYPagerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerViewLayout.m; sourceTree = "<group>"; };
+		60B53B2D23AF212500C9346A /* TYTabPagerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBar.m; sourceTree = "<group>"; };
+		60B53B2E23AF212500C9346A /* TYTabPagerBarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarLayout.m; sourceTree = "<group>"; };
+		60B53B2F23AF212500C9346A /* TYTabPagerBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarCell.h; sourceTree = "<group>"; };
+		60B53B3023AF212500C9346A /* TYTabPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerController.h; sourceTree = "<group>"; };
+		60B53B3123AF212500C9346A /* TYTabPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerView.m; sourceTree = "<group>"; };
+		60B53B3223AF212500C9346A /* TYTabPagerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBar.h; sourceTree = "<group>"; };
+		60B53B3323AF212500C9346A /* TYTabPagerBarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerBarLayout.h; sourceTree = "<group>"; };
+		60B53B3423AF212500C9346A /* TYTabPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerController.m; sourceTree = "<group>"; };
+		60B53B3523AF212500C9346A /* TYTabPagerBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabPagerBarCell.m; sourceTree = "<group>"; };
+		60B53B3623AF212500C9346A /* TYTabPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabPagerView.h; sourceTree = "<group>"; };
+		60B53B3723AF212500C9346A /* TYPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPagerView.m; sourceTree = "<group>"; };
+		60B53B3823AF212500C9346A /* TYPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerViewLayout.h; sourceTree = "<group>"; };
+		60B53B3923AF212500C9346A /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
+		60B53B3A23AF212500C9346A /* TYPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerView.h; sourceTree = "<group>"; };
+		60B53B4523AF232D00C9346A /* TYPagerController-Brdging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYPagerController-Brdging-Header.h"; sourceTree = "<group>"; };
+		60B53B5423AF508000C9346A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		60B53B5823AF508000C9346A /* VideoLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLibViewController.swift; sourceTree = "<group>"; };
+		60B53B5D23AF508000C9346A /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		60B53B6023AF508000C9346A /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		60B53B6923AF521C00C9346A /* CommonTopSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTopSearchView.swift; sourceTree = "<group>"; };
+		60B53B6E23B0B31800C9346A /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		60B53B7223B0C1E400C9346A /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		60B53B7423B0D85800C9346A /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		60D985F023B1E8D60085B4F3 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		60D985F223B1EFC00085B4F3 /* VideoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailController.swift; sourceTree = "<group>"; };
 		948F4ED6D249C731745B6E57 /* Pods-HelloVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloVideo/Pods-HelloVideo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,60 +206,22 @@
 			isa = PBXGroup;
 			children = (
 				60B53B1423A9C72F00C9346A /* Appdelegate */,
-				60B53B0A23A9C72F00C9346A /* TabbarVC */,
+				60B53B5223AF508000C9346A /* TabbarVC */,
+				60B53B6B23B0A23F00C9346A /* Categories */,
 				60B53B1323A9C72F00C9346A /* Public */,
 				60B53B1623A9C72F00C9346A /* Base */,
 				60B53B1A23A9C72F00C9346A /* Tool */,
+				60B53B2823AF212500C9346A /* ThirdParty */,
+				60B53B4323AF22F700C9346A /* Other */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		60B53B0A23A9C72F00C9346A /* TabbarVC */ = {
-			isa = PBXGroup;
-			children = (
-				60B53B0B23A9C72F00C9346A /* Home */,
-				60B53B0D23A9C72F00C9346A /* VideoLib */,
-				60B53B0F23A9C72F00C9346A /* Discovery */,
-				60B53B1123A9C72F00C9346A /* Mine */,
-			);
-			path = TabbarVC;
-			sourceTree = "<group>";
-		};
-		60B53B0B23A9C72F00C9346A /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				60B53B0C23A9C72F00C9346A /* HomeViewController.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		60B53B0D23A9C72F00C9346A /* VideoLib */ = {
-			isa = PBXGroup;
-			children = (
-				60B53B0E23A9C72F00C9346A /* VideoLibViewController.swift */,
-			);
-			path = VideoLib;
-			sourceTree = "<group>";
-		};
-		60B53B0F23A9C72F00C9346A /* Discovery */ = {
-			isa = PBXGroup;
-			children = (
-				60B53B1023A9C72F00C9346A /* DiscoverViewController.swift */,
-			);
-			path = Discovery;
-			sourceTree = "<group>";
-		};
-		60B53B1123A9C72F00C9346A /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				60B53B1223A9C72F00C9346A /* MineViewController.swift */,
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 		60B53B1323A9C72F00C9346A /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				60B53B7223B0C1E400C9346A /* UserManager.swift */,
+				60D985F023B1E8D60085B4F3 /* Const.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -251,6 +250,171 @@
 				60B53B1B23A9C72F00C9346A /* Tool.swift */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		60B53B2823AF212500C9346A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B2923AF212500C9346A /* TYPagerController */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		60B53B2923AF212500C9346A /* TYPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B3923AF212500C9346A /* TYPagerController.h */,
+				60B53B2A23AF212500C9346A /* TYPagerController.m */,
+				60B53B3823AF212500C9346A /* TYPagerViewLayout.h */,
+				60B53B2B23AF212500C9346A /* TYPagerViewLayout.m */,
+				60B53B2C23AF212500C9346A /* TabPager */,
+				60B53B3A23AF212500C9346A /* TYPagerView.h */,
+				60B53B3723AF212500C9346A /* TYPagerView.m */,
+			);
+			path = TYPagerController;
+			sourceTree = "<group>";
+		};
+		60B53B2C23AF212500C9346A /* TabPager */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B2D23AF212500C9346A /* TYTabPagerBar.m */,
+				60B53B2E23AF212500C9346A /* TYTabPagerBarLayout.m */,
+				60B53B2F23AF212500C9346A /* TYTabPagerBarCell.h */,
+				60B53B3023AF212500C9346A /* TYTabPagerController.h */,
+				60B53B3123AF212500C9346A /* TYTabPagerView.m */,
+				60B53B3223AF212500C9346A /* TYTabPagerBar.h */,
+				60B53B3323AF212500C9346A /* TYTabPagerBarLayout.h */,
+				60B53B3423AF212500C9346A /* TYTabPagerController.m */,
+				60B53B3523AF212500C9346A /* TYTabPagerBarCell.m */,
+				60B53B3623AF212500C9346A /* TYTabPagerView.h */,
+			);
+			path = TabPager;
+			sourceTree = "<group>";
+		};
+		60B53B4323AF22F700C9346A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B4423AF22F700C9346A /* BridgeFile */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		60B53B4423AF22F700C9346A /* BridgeFile */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B4523AF232D00C9346A /* TYPagerController-Brdging-Header.h */,
+			);
+			path = BridgeFile;
+			sourceTree = "<group>";
+		};
+		60B53B5223AF508000C9346A /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B6623AF50C000C9346A /* Other */,
+				60B53B5323AF508000C9346A /* Home */,
+				60B53B5623AF508000C9346A /* VideoLib */,
+				60B53B5C23AF508000C9346A /* Discovery */,
+				60B53B5F23AF508000C9346A /* Mine */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		60B53B5323AF508000C9346A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B5423AF508000C9346A /* HomeViewController.swift */,
+				60B53B5523AF508000C9346A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		60B53B5523AF508000C9346A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B53B5623AF508000C9346A /* VideoLib */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B5723AF508000C9346A /* View */,
+				60B53B5823AF508000C9346A /* VideoLibViewController.swift */,
+			);
+			path = VideoLib;
+			sourceTree = "<group>";
+		};
+		60B53B5723AF508000C9346A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B53B5C23AF508000C9346A /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B5D23AF508000C9346A /* DiscoverViewController.swift */,
+				60B53B5E23AF508000C9346A /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		60B53B5E23AF508000C9346A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B53B5F23AF508000C9346A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B6023AF508000C9346A /* MineViewController.swift */,
+				60B53B6123AF508000C9346A /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		60B53B6123AF508000C9346A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B53B6623AF50C000C9346A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B6723AF50C000C9346A /* Controller */,
+				60B53B6823AF50C000C9346A /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		60B53B6723AF50C000C9346A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60D985F223B1EFC00085B4F3 /* VideoDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		60B53B6823AF50C000C9346A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B6923AF521C00C9346A /* CommonTopSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60B53B6B23B0A23F00C9346A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				60B53B6E23B0B31800C9346A /* UIButtonExtensions.swift */,
+				60B53B7423B0D85800C9346A /* UIImageExtensions.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		FBF4366987521964B6A931C8 /* Frameworks */ = {
@@ -459,14 +623,28 @@
 			files = (
 				60B53B2223A9C72F00C9346A /* AppDelegate.swift in Sources */,
 				60B53B1D23A9C72F00C9346A /* SceneDelegate.swift in Sources */,
+				60B53B3F23AF212500C9346A /* TYTabPagerView.m in Sources */,
+				60B53B3B23AF212500C9346A /* TYPagerController.m in Sources */,
+				60D985F123B1E8D60085B4F3 /* Const.swift in Sources */,
+				60B53B6323AF508000C9346A /* VideoLibViewController.swift in Sources */,
+				60B53B6F23B0B31800C9346A /* UIButtonExtensions.swift in Sources */,
 				60B53B2323A9C72F00C9346A /* BaseTabbarController.swift in Sources */,
+				60B53B7523B0D85800C9346A /* UIImageExtensions.swift in Sources */,
+				60B53B6223AF508000C9346A /* HomeViewController.swift in Sources */,
 				60B53B2623A9C72F00C9346A /* Tool.swift in Sources */,
-				60B53B2023A9C72F00C9346A /* DiscoverViewController.swift in Sources */,
-				60B53B1E23A9C72F00C9346A /* HomeViewController.swift in Sources */,
+				60B53B3E23AF212500C9346A /* TYTabPagerBarLayout.m in Sources */,
+				60D985F323B1EFC00085B4F3 /* VideoDetailController.swift in Sources */,
+				60B53B4023AF212500C9346A /* TYTabPagerController.m in Sources */,
+				60B53B4223AF212500C9346A /* TYPagerView.m in Sources */,
+				60B53B6523AF508000C9346A /* MineViewController.swift in Sources */,
+				60B53B6423AF508000C9346A /* DiscoverViewController.swift in Sources */,
 				60B53B2523A9C72F00C9346A /* BaseNavigationController.swift in Sources */,
 				60B53B2423A9C72F00C9346A /* BaseViewController.swift in Sources */,
-				60B53B1F23A9C72F00C9346A /* VideoLibViewController.swift in Sources */,
-				60B53B2123A9C72F00C9346A /* MineViewController.swift in Sources */,
+				60B53B3D23AF212500C9346A /* TYTabPagerBar.m in Sources */,
+				60B53B4123AF212500C9346A /* TYTabPagerBarCell.m in Sources */,
+				60B53B3C23AF212500C9346A /* TYPagerViewLayout.m in Sources */,
+				60B53B6A23AF521C00C9346A /* CommonTopSearchView.swift in Sources */,
+				60B53B7323B0C1E400C9346A /* UserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +819,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/HelloVideo/SupporttingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -650,6 +831,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloVideo/Classes/Other/BridgeFile/TYPagerController-Brdging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -661,7 +843,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 5P9562ZCTP;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "$(SRCROOT)/HelloVideo/SupporttingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -670,6 +855,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloVideo/Classes/Other/BridgeFile/TYPagerController-Brdging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

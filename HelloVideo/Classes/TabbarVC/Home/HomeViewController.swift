@@ -10,21 +10,32 @@ import UIKit
 
 class HomeViewController: BaseViewController {
 
+//    let tabBar = TYTabPagerBar()
+//    let pagerController = TYPagerController()
+//    let categoryArr = NSMutableArray() //<HomeCategoryModel>
+//    let topSearchView = CommonTopSearchView()
+    
+    lazy var topSearchView: CommonTopSearchView = {
+        let topSearchView = CommonTopSearchView.init()
+        return topSearchView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = UIColor.lightGray;
+        view.backgroundColor = System_BgColor
+        navigationController?.navigationBar.isHidden = true
+        
+        view.addSubview(topSearchView)
+        topSearchView.snp.makeConstraints { (make) in
+            make.top.left.right.equalToSuperview()
+            make.height.equalTo(NavigationHeight)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc:VideoDetailController = VideoDetailController.init()
+        vc.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(vc, animated: true)
     }
-    */
-
+    
 }

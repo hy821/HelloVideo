@@ -14,6 +14,9 @@ class BaseTabbarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupViewController()
+        
+        //push页面返回后,tabBarItem设置的selected颜色失效,需要设置这句话
+        self.tabBar.tintColor = System_Color
     }
     
     func setupViewController() {
@@ -41,9 +44,8 @@ class BaseTabbarController: UITabBarController {
         childController.tabBarItem.image = UIImage.init(named: imageName)?.withRenderingMode(.alwaysOriginal)
         childController.tabBarItem.selectedImage = UIImage.init(named: selectedImageName)?.withRenderingMode(.alwaysOriginal)
         // 设置一下选中tabbar文字颜色
-        childController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor.init("#D96139")], for: .selected)
+        childController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:System_Color], for: .selected)
         childController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor.init("#403632")], for: .normal)
-        
         let nav = BaseNavigationController.init(rootViewController:childController)
         self.addChild(nav)
     }
