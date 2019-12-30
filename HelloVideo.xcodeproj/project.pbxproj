@@ -37,6 +37,8 @@
 		60B53B7523B0D85800C9346A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B7423B0D85800C9346A /* UIImageExtensions.swift */; };
 		60D985F123B1E8D60085B4F3 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D985F023B1E8D60085B4F3 /* Const.swift */; };
 		60D985F323B1EFC00085B4F3 /* VideoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D985F223B1EFC00085B4F3 /* VideoDetailController.swift */; };
+		60D9864423B610D90085B4F3 /* CommonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D9864323B610D90085B4F3 /* CommonModel.swift */; };
+		60D9864623B61EF70085B4F3 /* DiscoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D9864523B61EF70085B4F3 /* DiscoverCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,8 @@
 		60B53B7423B0D85800C9346A /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		60D985F023B1E8D60085B4F3 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		60D985F223B1EFC00085B4F3 /* VideoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailController.swift; sourceTree = "<group>"; };
+		60D9864323B610D90085B4F3 /* CommonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonModel.swift; sourceTree = "<group>"; };
+		60D9864523B61EF70085B4F3 /* DiscoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DiscoverCell.swift; path = HelloVideo/Classes/TabbarVC/Other/Model/DiscoverCell.swift; sourceTree = SOURCE_ROOT; };
 		948F4ED6D249C731745B6E57 /* Pods-HelloVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloVideo/Pods-HelloVideo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -363,6 +367,7 @@
 		60B53B5E23AF508000C9346A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				60D9864523B61EF70085B4F3 /* DiscoverCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -386,6 +391,7 @@
 		60B53B6623AF50C000C9346A /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				60D9863F23B610B20085B4F3 /* Model */,
 				60B53B6723AF50C000C9346A /* Controller */,
 				60B53B6823AF50C000C9346A /* View */,
 			);
@@ -415,6 +421,14 @@
 				60B53B7423B0D85800C9346A /* UIImageExtensions.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		60D9863F23B610B20085B4F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60D9864323B610D90085B4F3 /* CommonModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FBF4366987521964B6A931C8 /* Frameworks */ = {
@@ -628,6 +642,7 @@
 				60D985F123B1E8D60085B4F3 /* Const.swift in Sources */,
 				60B53B6323AF508000C9346A /* VideoLibViewController.swift in Sources */,
 				60B53B6F23B0B31800C9346A /* UIButtonExtensions.swift in Sources */,
+				60D9864423B610D90085B4F3 /* CommonModel.swift in Sources */,
 				60B53B2323A9C72F00C9346A /* BaseTabbarController.swift in Sources */,
 				60B53B7523B0D85800C9346A /* UIImageExtensions.swift in Sources */,
 				60B53B6223AF508000C9346A /* HomeViewController.swift in Sources */,
@@ -638,6 +653,7 @@
 				60B53B4223AF212500C9346A /* TYPagerView.m in Sources */,
 				60B53B6523AF508000C9346A /* MineViewController.swift in Sources */,
 				60B53B6423AF508000C9346A /* DiscoverViewController.swift in Sources */,
+				60D9864623B61EF70085B4F3 /* DiscoverCell.swift in Sources */,
 				60B53B2523A9C72F00C9346A /* BaseNavigationController.swift in Sources */,
 				60B53B2423A9C72F00C9346A /* BaseViewController.swift in Sources */,
 				60B53B3D23AF212500C9346A /* TYTabPagerBar.m in Sources */,
