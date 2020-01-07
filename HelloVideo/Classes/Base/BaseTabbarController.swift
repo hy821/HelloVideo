@@ -30,7 +30,6 @@ class BaseTabbarController: UITabBarController {
             let clsName = Bundle.main.infoDictionary!["CFBundleExecutable"] as? String
             //第二步：拼接参数字符串 项目名+.+需要加载的类的名称
             let vcView = NSClassFromString(clsName! + "." + className) as! BaseViewController.Type
-            print(vcView)
 
             let root:BaseViewController = vcView.init()
 

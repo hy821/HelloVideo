@@ -13,6 +13,7 @@
 		602B2E6523A8FF05000DEB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602B2E6323A8FF05000DEB3E /* LaunchScreen.storyboard */; };
 		602B2E7023A8FF06000DEB3E /* HelloVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B2E6F23A8FF06000DEB3E /* HelloVideoTests.swift */; };
 		602B2E7B23A8FF06000DEB3E /* HelloVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B2E7A23A8FF06000DEB3E /* HelloVideoUITests.swift */; };
+		605A713E23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 605A713D23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.m */; };
 		60B53B1D23A9C72F00C9346A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B0823A9C72F00C9346A /* SceneDelegate.swift */; };
 		60B53B2223A9C72F00C9346A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1523A9C72F00C9346A /* AppDelegate.swift */; };
 		60B53B2323A9C72F00C9346A /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B53B1723A9C72F00C9346A /* BaseTabbarController.swift */; };
@@ -71,6 +72,9 @@
 		602B2E7623A8FF06000DEB3E /* HelloVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		602B2E7A23A8FF06000DEB3E /* HelloVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVideoUITests.swift; sourceTree = "<group>"; };
 		602B2E7C23A8FF06000DEB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605A713C23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		605A713D23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		605A713F23C450FF003736FE /* HelloVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		60B53B0723A9C72F00C9346A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B53B0823A9C72F00C9346A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		60B53B1523A9C72F00C9346A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +98,6 @@
 		60B53B3823AF212500C9346A /* TYPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerViewLayout.h; sourceTree = "<group>"; };
 		60B53B3923AF212500C9346A /* TYPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerController.h; sourceTree = "<group>"; };
 		60B53B3A23AF212500C9346A /* TYPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPagerView.h; sourceTree = "<group>"; };
-		60B53B4523AF232D00C9346A /* TYPagerController-Brdging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYPagerController-Brdging-Header.h"; sourceTree = "<group>"; };
 		60B53B5423AF508000C9346A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		60B53B5823AF508000C9346A /* VideoLibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLibViewController.swift; sourceTree = "<group>"; };
 		60B53B5D23AF508000C9346A /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +200,15 @@
 			path = HelloVideoUITests;
 			sourceTree = "<group>";
 		};
+		605A713B23C44F7A003736FE /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				605A713C23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.h */,
+				605A713D23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
 		60B53B0623A9C72F00C9346A /* SupporttingFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,13 +222,14 @@
 			isa = PBXGroup;
 			children = (
 				60B53B1423A9C72F00C9346A /* Appdelegate */,
+				60B53B1323A9C72F00C9346A /* Public */,
 				60B53B5223AF508000C9346A /* TabbarVC */,
 				60B53B6B23B0A23F00C9346A /* Categories */,
-				60B53B1323A9C72F00C9346A /* Public */,
 				60B53B1623A9C72F00C9346A /* Base */,
 				60B53B1A23A9C72F00C9346A /* Tool */,
 				60B53B2823AF212500C9346A /* ThirdParty */,
 				60B53B4323AF22F700C9346A /* Other */,
+				605A713B23C44F7A003736FE /* OC */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -306,7 +319,7 @@
 		60B53B4423AF22F700C9346A /* BridgeFile */ = {
 			isa = PBXGroup;
 			children = (
-				60B53B4523AF232D00C9346A /* TYPagerController-Brdging-Header.h */,
+				605A713F23C450FF003736FE /* HelloVideo-Bridging-Header.h */,
 			);
 			path = BridgeFile;
 			sourceTree = "<group>";
@@ -314,11 +327,11 @@
 		60B53B5223AF508000C9346A /* TabbarVC */ = {
 			isa = PBXGroup;
 			children = (
-				60B53B6623AF50C000C9346A /* Other */,
 				60B53B5323AF508000C9346A /* Home */,
 				60B53B5623AF508000C9346A /* VideoLib */,
 				60B53B5C23AF508000C9346A /* Discovery */,
 				60B53B5F23AF508000C9346A /* Mine */,
+				60B53B6623AF50C000C9346A /* Other */,
 			);
 			path = TabbarVC;
 			sourceTree = "<group>";
@@ -342,8 +355,8 @@
 		60B53B5623AF508000C9346A /* VideoLib */ = {
 			isa = PBXGroup;
 			children = (
-				60B53B5723AF508000C9346A /* View */,
 				60B53B5823AF508000C9346A /* VideoLibViewController.swift */,
+				60B53B5723AF508000C9346A /* View */,
 			);
 			path = VideoLib;
 			sourceTree = "<group>";
@@ -638,6 +651,7 @@
 				60B53B2223A9C72F00C9346A /* AppDelegate.swift in Sources */,
 				60B53B1D23A9C72F00C9346A /* SceneDelegate.swift in Sources */,
 				60B53B3F23AF212500C9346A /* TYTabPagerView.m in Sources */,
+				605A713E23C44F7A003736FE /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				60B53B3B23AF212500C9346A /* TYPagerController.m in Sources */,
 				60D985F123B1E8D60085B4F3 /* Const.swift in Sources */,
 				60B53B6323AF508000C9346A /* VideoLibViewController.swift in Sources */,
@@ -847,7 +861,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloVideo/Classes/Other/BridgeFile/TYPagerController-Brdging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloVideo/Classes/Other/BridgeFile/HelloVideo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -871,7 +885,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ShangHaiYoudu.HelloVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloVideo/Classes/Other/BridgeFile/TYPagerController-Brdging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HelloVideo/Classes/Other/BridgeFile/HelloVideo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

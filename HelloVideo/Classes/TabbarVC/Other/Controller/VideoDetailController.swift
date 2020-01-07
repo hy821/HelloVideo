@@ -13,7 +13,7 @@ class VideoDetailController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "视频详情页"
+        navigationItem.title = "视频详情页"
         
         view.backgroundColor = System_BgColor
         

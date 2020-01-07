@@ -23,7 +23,7 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = System_BgColor
-        navigationController?.navigationBar.isHidden = true
+        fd_prefersNavigationBarHidden = true
         
         view.addSubview(topSearchView)
         topSearchView.snp.makeConstraints { (make) in

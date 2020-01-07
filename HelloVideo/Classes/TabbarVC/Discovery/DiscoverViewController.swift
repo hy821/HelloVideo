@@ -12,13 +12,16 @@ class DiscoverViewController: BaseViewController {
 
      lazy var mainTableView: UITableView = {
         let tempTableView = UITableView (frame: CGRect.zero, style:.plain)
-//        tempTableView.delegate = self
-//        tempTableView.dataSource = self
-        tempTableView.backgroundColor = White_Color
+        tempTableView.rowHeight = 50
+        tempTableView.delegate = (self as! UITableViewDelegate)
+        tempTableView.dataSource = self
+        tempTableView.backgroundColor = LightGray_Color
         tempTableView.separatorStyle = .singleLine
         tempTableView.separatorStyle = .none
         tempTableView.showsVerticalScrollIndicator = false
 
+        tempTableView.register(DiscoverCell.self, forCellReuseIdentifier: "DiscoverCell")
+        
         return tempTableView
      }()
     
@@ -34,10 +37,10 @@ class DiscoverViewController: BaseViewController {
       override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = System_BgColor
-        navigationController?.navigationBar.isHidden = true
+        fd_prefersNavigationBarHidden = true
         
         initUI()
-        
+        loadDataWithAnimation()
        
     }
     
@@ -52,6 +55,12 @@ class DiscoverViewController: BaseViewController {
             make.top.equalTo(topSearchView.snp.bottom)
             make.left.right.bottom.equalToSuperview()
         }
+    }
+    
+    func loadDataWithAnimation() {
+        
+        
+        
     }
 
 }

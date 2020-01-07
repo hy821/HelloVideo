@@ -13,7 +13,10 @@ class BaseNavigationController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.addPanGes()
+        //不设置会导致push后,导航栏闪现黑色阴影
+        view.backgroundColor = White_Color
+        
+        addPanGes()
     }
     
     //将导航栏的右滑手势添加到 view 上面, 实现全屏都可右滑返回
